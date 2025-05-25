@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Cuts Barber Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .hero {
+            background-image: url('b1.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 50px;
+        }
+
+        .services .card {
+            border: none;
+            transition: transform 0.3s;
+        }
+
+        .services .card:hover {
+            transform: scale(1.05);
+        }
+
+        .img-same-size {
+            width: 300px;
+            /* fixed width */
+            height: 300px;
+            /* fixed height */
+            object-fit: cover;
+            /* cover crops image to fill the box */
+            display: block;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand">Classic Cuts Barber Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="display-4">Classic Cuts</h1>
+                <p class="lead">Precision, Style, and a Touch of Tradition</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Services</h2>
+                <p>Top-notch grooming for gentlemen</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <h4>Classic Haircut</h4>
+                        <p>£15 - Haircut of any choice</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <h4>Beard Trim</h4>
+                        <p>£10 - Precision beard shaping and trim</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3">
+                        <h4>Junior Haircut (<18) </h4>
+                                <p>£10 - Haircut of any choice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="py-5 px-3">
+            <h3 class="text-center">Wide Range of Beard Trims and Haircuts</h3>
+            <div class="d-flex justify-content-center flex-wrap gap-3">
+                <img src="./h1.jpg" class="img-same-size rounded"> <img src="./h2.jpg" class="img-same-size rounded">
+                <img src="./h3.jpg" class="img-same-size rounded"><img src="./h4.jpg" class="img-same-size rounded">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div>
+                        <img src="./b3.jpg" alt="Barber Shop" class="img-fluid w-100 h-100">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h2>About Us</h2>
+                    <p>Established in 1990, Classic Cuts is a community-focused barbershop with a passion for
+                        traditional barbering and modern style. Our barbers are trained professionals who take pride in
+                        providing high-quality grooming services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Contact Us</h2>
+                <p>Ready for your next cut? Let's get in touch!</p>
+            </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-dark">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2025 Classic Cuts Barber Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
